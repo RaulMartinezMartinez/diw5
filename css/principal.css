@@ -1,0 +1,75 @@
+body{
+    text-align: center;
+    background-color: whitesmoke;
+}
+#menu{
+    flex-wrap: wrap;
+}
+.btn{
+    border: 1px solid black;
+    margin-bottom: 1em;
+    color: white;
+}
+#titulo{
+    font-size: 3em;
+    padding: 1em;
+}
+
+#dashboard{
+    padding: 2em;
+}
+#t_productos{
+    padding: 2em;
+}
+#des{
+    font-size: 2em;
+    color: turquoise;
+}
+#ingresos h2{
+    font-size: 2em;
+    color: turquoise;
+}
+#des1{
+    font-size: 2em;
+    color:blue;
+}
+#gastos h2{
+    font-size: 2em;
+    color:blue;
+
+}
+#des2{
+    font-size: 2em;
+    color: green;
+}
+#beneficios h2{
+    font-size: 2em;
+    color: green;
+
+}
+#ingresos{
+    border: 1px solid gray;
+    padding: 1em;
+}
+#gastos{
+    border: 1px solid gray;
+    padding: 1em;
+}
+#beneficios{
+    border: 1px solid gray;
+    padding: 1em;
+}
+.parrafo{
+    font-size: 2em;
+}
+#productos{
+    flex-wrap: wrap;
+}
+.precio{
+    color: black;
+}
+#footer{
+    padding: 3em;
+    background-color: rgb(29, 27, 27);
+    color: white;
+}

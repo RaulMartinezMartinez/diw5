@@ -1,0 +1,9 @@
+#login{
+    max-height: 600px;
+}
+#formulario{
+    max-width: 300px;
+}
+#fondo{
+    background-image: linear-gradient(to right, #34889c, #4678c8);
+}

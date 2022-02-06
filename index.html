@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+
+<body>
+    <div class="d-flex vh-100 p-5" id="fondo">
+    <div class="container bg-white text-center d-flex" id="login">
+        <div class="d-none d-xl-block d-lg-block">
+            <img src="/img/login.svg" alt="Imagen login">
+        </div>
+        <div class="container-fluid col" id="formulario">
+            <div class="container-fluid my-5">
+                <h1>BIENVENIDO</h1>
+            </div>
+            <div class="container-fluid">
+                <form action="/principal.html">
+                    <div class="container-fluid">
+                        <label for="exampleInputEmail1" class="form-label">Correo electrónico</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Mantenerme conectado</label>
+                    </div>
+                    <button type="submit" class="btn bg-primary">Iniciar sesión</button>
+                </form>
+                <div class="container-fluid">
+                    <p>No tienes cuenta?</p>
+                    <p><a href="">Regístrate</a></p>
+                    <p><a href="">Recuperar password</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

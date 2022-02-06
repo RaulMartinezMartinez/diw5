@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Principal</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/principal.css">
+
+</head>
+
+<body>
+    <div class="d-flex flex-column" id="principal">
+        <div class="bg-white" id="menu">
+            <div class="container-fluid"><h1 id="titulo">MI TIENDA OUTLET</h1></div>
+            <button type="button" class="btn btn-primary col-3">
+                <h1>Dashboard</h1>
+            </button>
+            <button type="button" class="btn btn-success col-3">
+                <h1>Usuarios</h1>
+            </button>
+            <button type="button" class="btn btn-success col-3">
+                <h1>Productos</h1>
+            </button>
+            <button type="button" class="btn btn-success col-3">
+                <h1>Gráficos</h1>
+            </button>
+            <button type="button" class="btn btn-success col-3">
+                <h1>Informes</h1>
+            </button>
+            <button type="button" class="btn btn-success col-4">
+                <h1>Cerrar sesión</h1>
+            </button>
+        </div>
+        <div class="d-flex flex-column" id="dashboard">
+            <div class="container-fluid"><h1><b>DASHBOARD</b></h1></div>
+            <div class="d-flex" id="datos">
+                <div class="container bg-white my-3" id="ingresos">
+                    <div class="container">
+                        <h1 id="des">INGRESOS</h1>
+                        <h2>(Anual)</h2>
+                        <h1 id="precio">1300 €</h1>
+                    </div>
+                </div>
+
+                <div class="container bg-white my-3" id="gastos">
+                    <div class="container-fluid">
+                        <h1 id="des1">GASTOS</h1>
+                        <h2>(Anual)</h2>
+                        <h1 id="precio">1000 €</h1>
+                    </div>
+                </div>
+
+                <div class="container bg-white my-3" id="beneficios">
+                    <div class="container-fluid">
+                        <h1 id="des2">BENEFICIOS</h1>
+                        <h2>(Anual)</h2>
+                        <h1 class="precio">300 €</h1>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="d-flex flex-row" id="productos">
+            <div class="container-fluid" id="t_productos">
+                <h1><b>PRODUCTOS MÁS VENDIDOS</b></h1>
+            </div>
+            <div class="d-flex" id="fila1">
+                <div class="card" style="width: 18rem;">
+                    <img src="/img/xiaomi.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h3 class="card-title">250,25€</h3>
+                      <p class="card-text font parrafo">Xiaomi Redmi Note 9 Pro 6/64GB Verde Tropical</p>
+                      <h3 class="card-title"><b>Ventas: </b>1232</h3>
+                      <h3 class="card-title"><b>Código: </b>299423</h3>
+                      <a href="#" class="btn btn-primary parrafo">Smartphone</a>
+                    </div>
+                  </div>
+
+                  <div class="card" style="width: 18rem;">
+                    <img src="/img/mouse.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h3 class="card-title">49,99 €</h3>
+                      <p class="card-text parrafo">Tempest X20W Vigilant Raton Gaming Inalámbrico</p>
+                      <h3 class="card-title"><b>Ventas: </b>855</h3>
+                      <h3 class="card-title"><b>Código: </b>433507</h3>
+                      <a href="#" class="btn btn-primary parrafo">Periféricos</a>
+                    </div>
+                  </div>
+
+                  <div class="card" style="width: 18rem;">
+                    <img src="/img/pantalla.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h3 class="card-title">343,98 €</h3>
+                      <p class="card-text parrafo">NewSkill Icarus RGB 27" LED Fast IPS QHD 180Hz G-Sync Compatible</p>
+                      <h3 class="card-title"><b>Ventas: </b>1000</h3>
+                      <h3 class="card-title"><b>Código: </b>414013</h3>
+                      <a href="#" class="btn btn-primary parrafo">Monitores</a>
+                    </div>
+                  </div>
+            </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="/img/torre.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h3 class="card-title">56,99€</h3>
+                      <p class="card-text parrafo">Tempest Vapor USB 3.0 Ventana RGB Negro</p>
+                      <h3 class="card-title"><b>Ventas: </b>425</h3>
+                      <h3 class="card-title"><b>Código: </b>386825</h3>
+                      <a href="#" class="btn btn-primary parrafo">Componentes</a>
+                    </div>
+                  </div>
+
+                  <div class="card" style="width: 18rem;">
+                    <img src="/img/webcam.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h3 class="card-title">75,99 €</h3>
+                      <p class="card-text parrafo">Logitech C920s Pro Webcam</p>
+                      <h3 class="card-title"><b>Ventas: </b>711</h3>
+                      <h3 class="card-title"><b>Código: </b>258324</h3>
+                      <a href="#" class="btn btn-primary parrafo">Periféricos</a>
+                    </div>
+                  </div>
+        </div>
+        <div class="container-fluid" id="footer">
+            <p>Copyright © 2020</p>
+        </div>
+    </div>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
